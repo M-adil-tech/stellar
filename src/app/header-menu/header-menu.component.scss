@@ -1,0 +1,52 @@
+.header-menu {
+  ul {
+    // list-style-type: none;
+    // margin: 0;
+    // padding: 0;
+    // text-align: right;
+    li {
+      // display: inline-block;
+      // padding: 0 12px;
+
+      a {
+        font-family: "Aeonik-Light";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        margin-top: 5px;
+        color: #fff;
+      }
+      .btn {
+        padding: 0;
+      }
+      .btn-link {
+        text-decoration: none;
+        font-family: "Aeonik-Light";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        color: #fff;
+      }
+      .booking-btn {
+        border-radius: 200px;
+        padding: 12px 24px;
+      }
+    }
+  }
+.point{
+cursor: pointer;
+}
+
+}
+/* Mobile View */
+@media (max-width: 768px) {
+.header-menu .navbar-toggler-icon {
+  background-color: white; 
+  border-radius: 3px; 
+}
+}
+

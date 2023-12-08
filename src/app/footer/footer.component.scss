@@ -1,0 +1,110 @@
+.footer-section {
+  background: #05071d;
+  background-image: radial-gradient(
+    520px 150px at top center,
+    rgba(189, 86, 234, 0.5) 10%,
+    rgb(53, 24, 70) 40%,
+    rgb(29, 13, 43) 71%,
+    rgba(5, 7, 29, 1) 100%
+  );
+  --border: 3px;
+  border: solid var(--border) transparent;
+
+  margin: 0 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 2em;
+  .footer-menu {
+    margin: 100px 100px 0px 100px;
+    padding: 100px 0;
+    img {
+      margin-bottom: 30px;
+    }
+    p {
+      color: #fff;
+      opacity: 0.7;
+      font-family: "Aeonik-Light";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 250;
+      line-height: 29px;
+    }
+    h1 {
+      color: #fff;
+      font-family: "Aeonik-Bold";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 39px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        margin-bottom: 5px;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-family: "Aeonik-Light";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 250;
+          line-height: 39px;
+          opacity: 0.7;
+        }
+      }
+    }
+    input {
+      border-radius: 10px;
+      opacity: 0.3;
+      background: #d9d9d9;
+    }
+    input::placeholder {
+      color: #fff;
+      font-family: "Aeonik-Light";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 250;
+      line-height: 39px;
+    }
+    .reserved {
+      padding-top: 120px;
+      padding-bottom: 400px;
+      p {
+        color: #fff;
+        opacity: 0.7;
+        font-family: "Aeonik-Light";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 250;
+        line-height: 29px;
+      }
+    }
+  }
+  .footer-illustration {
+   // position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+.footer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: calc(-1 * var(--border));
+  border-radius: inherit;
+  background: linear-gradient(
+    to bottom,
+    rgb(207, 99, 255),
+    rgb(33, 22, 43) 71%
+  );
+}

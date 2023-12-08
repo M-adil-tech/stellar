@@ -1,0 +1,593 @@
+.hassle-section {
+    .hassel-inner-bg {
+        background-image: url("../../assets/imgs/hassel-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    background: #05071d;
+    background-image: radial-gradient(520px 150px at top center,
+        rgba(189, 86, 234, 0.5) 10%,
+        rgb(53, 24, 70) 40%,
+        rgb(29, 13, 43) 71%,
+        rgba(5, 7, 29, 1) 100%);
+    position: relative;
+    box-sizing: border-box;
+    --border: 3px;
+    background-clip: padding-box;
+    border: solid var(--border) transparent;
+    border-radius: 2em;
+    margin: 0px;
+    text-align: center;
+    // padding-bottom: px;
+    padding: 10px 30px;
+    margin-top: 90px;
+
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.hassle-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: calc(-1 * var(--border));
+    border-radius: inherit;
+    background: linear-gradient(to bottom,
+            rgb(207, 99, 255),
+            rgb(33, 22, 43) 71%);
+}
+.rotateVideo{
+    transform: PERSPECTIVE(66em) rotateX(33deg);
+  }
+.brilliance-section {
+    background-image: url("../../assets/imgs/brilliance-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    filter: opacity(0.9);
+
+    .br-texts {
+        padding: 622px 0;
+
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 152px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.gateway-section {
+    text-align: center;
+
+    // margin-bottom: 150px;
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+
+    .tests-circle {
+        position: relative;
+
+        // .circle-menu {
+        //   .circle-container {
+        //     position: relative;
+        //     width: 200px;
+        //     height: 200px;
+        //     border: 10px solid #3498db; /* Adjust the border thickness and color */
+        //     border-radius: 50%;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     justify-content: space-around;
+        //   }
+
+        //   .circle-link {
+        //     text-decoration: none;
+        //     color: #3498db; /* Adjust the link color */
+        //     font-weight: bold;
+        //     text-align: center;
+        //   }
+        // }
+        .blured-top {
+            position: absolute;
+            background: linear-gradient(180deg, rgba(5, 7, 29, 0) 0%, #05071d 65.39%);
+            bottom: 40px;
+            width: 100%;
+            z-index: 1;
+            color: white;
+            padding: 340px 0;
+        }
+    }
+}
+
+.code-test-section {
+    .gateway-inner-bg {
+        background-image: url("../../assets/imgs/gateway-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        padding-bottom: 700px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 100px;
+    }
+
+    background: #05071d;
+    background-image: radial-gradient(520px 150px at top center,
+        rgba(189, 86, 234, 0.5) 10%,
+        rgb(53, 24, 70) 40%,
+        rgb(29, 13, 43) 71%,
+        rgba(5, 7, 29, 1) 100%);
+    position: relative;
+    box-sizing: border-box;
+    --border: 3px;
+    background-clip: padding-box;
+    border: solid var(--border) transparent;
+    border-radius: 2em;
+    margin: 0 40px;
+    // padding-bottom: 960px;
+    // padding-left: 60px;
+    // padding-right: 60px;
+    // padding-top: 100px;
+    text-align: center;
+
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+
+    .all-cards {
+        margin-top: 50px;
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        right: 0;
+    }
+}
+
+.code-test-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: calc(-1 * var(--border));
+    border-radius: inherit;
+    background: linear-gradient(to bottom,
+            rgb(207, 99, 255),
+            rgb(33, 22, 43) 71%);
+}
+
+.how-works {
+    background-image: url("../../assets/imgs/how-works.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 560px 0;
+    text-align: center;
+
+    h2 {
+        text-align: center;
+        font-family: "Aeonik-Bold";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 24px 0;
+        line-height: 81px;
+        background: var(--Linear,
+                linear-gradient(94deg, #c75ffe 36.12%, #6b29ee 81.28%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+        margin-bottom: 24px;
+    }
+
+    .booking-btn {
+        border-radius: 200px;
+        padding: 12px 24px;
+    }
+}
+
+.integrations-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0;
+
+    .integrations-text {
+        margin-left: 80px;
+
+        h2 {
+            font-family: "Aeonik-Regular";
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 81px;
+            background: linear-gradient(92deg, #cf63ff 20.92%, #4d1ae5 79.76%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #fff;
+            opacity: 0.8;
+            font-family: "Aeonik-Light";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+}
+
+.faq-section {
+    h1 {
+        color: #fff;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .faq-questions {
+        margin: 0px 80px 80px 80px;
+
+        .accordion-item {
+            border-radius: 40px;
+            background: #130d3f;
+            border: none;
+            padding: 35px 20px !important;
+            border-top: 1px solid #cf63ff;
+        }
+
+        .accordion-button {
+            background: #130d3f;
+            color: #fff;
+            border-radius: 200px;
+            padding: 5px;
+        }
+
+        .accordion-body {
+            p {
+                color: #fff;
+            }
+        }
+
+        .accordion-button:after {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+    }
+}
+
+.banner {
+    background-image: url("../../assets/imgs/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 24px 0;
+    position: relative;
+
+
+
+    .banner-body {
+
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+
+
+
+        img {
+            width: 382px;
+            height: 341px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: "Aeonik-Bold";
+            font-size: 90px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: var(--Linear, linear-gradient(94deg, #C75FFE 36.12%, #6B29EE 81.28%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Aeonik-Bold";
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px;
+        }
+
+        .h2text {
+            color: #FFF;
+            text-align: center;
+            font-family: "Aeonik-Bold";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+        }
+
+
+
+        // p {
+        //     color: #fff;
+        //     text-align: center;
+        //     font-family: "Aeonik-Light";
+        //     font-size: 20px;
+        //     font-style: normal;
+        //     font-weight: 400;
+        //     line-height: 30px;
+        //     opacity: 0.8;
+        // }
+
+        .ptext {
+            color: #fff;
+            text-align: center;
+            font-family: "Aeonik-Light";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            opacity: 0.8;
+        }
+
+        .p1 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            opacity: 0.8;
+            padding: 10px 15%;
+        }
+
+        .p2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            opacity: 0.7;
+            padding: 10px 15%;
+        }
+
+        .booking-btn {
+            border-radius: 200px;
+            padding: 12px 24px;
+        }
+    }
+}
+
+
+
+.item_div {
+    border-radius: 24px;
+    background: #130D3F;
+    width: 24%;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 165px;
+        height: 51px;
+        object-fit: scale-down;
+    }
+}
+
+.flex_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+
+}
+
+.forLoopDiv {
+    border-radius: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.forIn {
+    border-radius: 24px;
+    background: #130D3F;
+    padding: 40px 15px;
+    border-top: 1px solid #cf63ff;
+    height: 330px;
+
+    .p11 {
+        font-family: "Aeonik-Bold";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: linear-gradient(94deg, #C75FFE 13.89%, #6B29EE 62.67%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+    }
+
+    .p22 {
+        color: #FFF;
+        font-family: "Aeonik-Regular";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        opacity: 0.7;
+        text-align: left;
+    }
+}

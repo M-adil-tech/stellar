@@ -1,0 +1,20 @@
+p {
+  font-family: "Aeonik-Regular-Italic";
+  font-size: 90px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(210, 110, 253, 0.5) 0%,
+    rgba(176, 96, 219, 0.3) 100%
+  );
+  filter: blur(7px);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}

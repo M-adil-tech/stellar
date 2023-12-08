@@ -1,0 +1,66 @@
+<div class="header-menu">
+  <div class="px-5">
+    <nav class="navbar navbar-expand-lg ">
+      <img src="assets/imgs/logo2.png"  class="point" [routerLink]="'/'"/>
+      <button (click)="toggleNavbarCollapsing()" class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation bg-primary">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      
+
+      <div class="collapse navbar-collapse" [class.collapse]="navbarCollapsed" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/whyus'">Why Stellar</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="cursor: pointer;">
+              Features
+            </a>
+            <div class="dropdown-menu dropdown-menu-dark" style="padding: 10px 0px 10px 10px;
+            background: rgba(139,61,241,0.5);
+            margin-top: -10px;">
+              <a [routerLink]="'/ui-testing'">UI Testing</a> <br>
+              <hr>
+              <a [routerLink]="'/performance-testing'">Performance Testing</a> <br>
+              <hr>
+              <a [routerLink]="'/api-testing'">Api Testing</a> <br>
+              <hr>
+              <a [routerLink]="'/reporting'">Reporting</a>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;" (click)="navigateToSecondComponent()">How it Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/integrations'">Integrations</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="cursor: pointer;" >Community</a>
+            <!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a> -->
+          
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="cursor: pointer;" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu dropdown-menu-dark" style="padding: 10px 0px 10px 10px;
+            background: #582a76;
+            margin-top: -10px;">
+              <a class="dropdown-item" href="#">Documents</a>
+
+            </div>
+          </li>
+          <li>
+            <button class="btn btn-info booking-btn">Book a Demo</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

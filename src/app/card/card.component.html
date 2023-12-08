@@ -1,0 +1,62 @@
+<div class="card-container ">
+  <div
+    class="card tilted"
+    [ngClass]="'class' + index"
+    [class.tilted]="isTilted" 
+    @cardTrigger
+    (click)="onClick1()"
+  >
+    <ng-container *ngIf="index == 1">
+      <div>
+        <img src="assets/imgs/Group (2).png" />
+      </div>
+      <h1>Codeless Testing</h1>
+      <p>
+        Codeless Testing Steller’s codeless testing feature results in
+        hassle-free and efficient<br />
+        testing. This revolutionary feature enables manual testers to create
+        automated tests<br />
+        without having to write a single line of code.
+      </p>
+    </ng-container>
+    <ng-container *ngIf="index == 2">
+      <div>
+        <img src="assets/imgs/Group (1).png" />
+      </div>
+      <h1>AI</h1>
+      <p>
+        Stellar’s Artificial Intelligence function detect modifications in
+        objects or elements that lead<br />
+        to the failure of a test scenario. The unique Stellar AI feature, helps
+        in identifying the<br />
+        specific changes that caused the breakage, finding the most appropriate
+        solution, and<br />
+        applying the fix promptly before continuing to re-run the test.
+      </p></ng-container
+    >
+    <ng-container *ngIf="index == 3">
+      <div>
+        <img src="assets/imgs/Group (3).png" />
+      </div>
+      <h1>Measurable Performance</h1>
+      <p>
+        Stellar technology results in increased productivity and performance
+        optimization due to<br />
+        early error detection, regular maintenance and updates, finer
+        permutation, and
+      </p></ng-container
+    >
+    <ng-container *ngIf="index == 4">
+      <div>
+        <img src="assets/imgs/Group (4).png" />
+      </div>
+      <h1>Reporting</h1>
+      <p>
+        Stellar technology results in increased productivity and performance
+        optimization due to<br />
+        early error detection, regular maintenance and updates, finer
+        permutation, and
+      </p></ng-container
+    >
+  </div>
+</div>

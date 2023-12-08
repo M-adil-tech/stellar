@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Aeonik-Bold";
+  src: url("./assets/fonts/Aeonik-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Aeonik-Bold-Italic";
+  src: url("./assets/fonts/Aeonik-BoldItalic.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Aeonik-Light";
+  src: url("./assets/fonts/Aeonik-Light.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Aeonik-Light-Italic";
+  src: url("./assets/fonts/Aeonik-LightItalic.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Aeonik-Regular";
+  src: url("./assets/fonts/Aeonik-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Aeonik-Regular-Italic";
+  src: url("./assets/fonts/Aeonik-RegularItalic.woff2") format("woff2"),
+    url("./assets/fonts/Aeonik-RegularItalic.woff") format("woff");
+}
+
+body {
+  background: #05071d;
+  overflow-x:hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

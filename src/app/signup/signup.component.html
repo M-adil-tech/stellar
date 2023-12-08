@@ -1,0 +1,111 @@
+<div class="modal-overlay"></div>
+<div class="modal-content">
+
+
+    <div class="row">
+        <img class="logoImg" src="assets/imgs/logo2.png" />
+
+        <p class="welcome">Get Started Now</p>
+        <p class="welcome_sub">Please provide required information to crate your account</p>
+
+
+        <div class="col">
+            <div class="socialdiv">
+                <img src="assets/imgs/gmail.svg" />
+                <p class="socialText">Sign in with Google</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="socialdiv">
+                <img src="assets/imgs/fb.svg" />
+                <p class="socialText"> Sign in with Facebook</p>
+            </div>
+        </div>
+
+        <div class="hrDiv">
+            <hr class="myHrL">
+            <p class="or">or</p>
+            <hr class="myHrR">
+        </div>
+
+        <div class="col">
+            <label for="fname" class="label">First Name</label>
+            <input type="text" id="fname" [(ngModel)]="fname" name="fname" class="inp" placeholder="Enter first name">
+        </div>
+
+        <div class="col">
+            <label for="lname" class="label">Last Name</label>
+            <input type="text" id="pass" [(ngModel)]="lname" name="lname" class="inp" placeholder="Enter last name">
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label for="email" class="label">Email Address</label>
+            <input type="text" id="email" [(ngModel)]="email" name="email" class="inp"
+                placeholder="olivia@collabdocs.com">
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label for="email" class="label">Phone number</label>
+            <div class="inp" style="padding: 0px 15px 0px 0px;">
+
+                <div>
+                    <select name="cars" id="cars">
+                        <option *ngFor="let cu of countryArr" value="cu.countryCode">{{cu.countryCode}}</option>
+                    </select>
+                </div>
+                <input type="tel" [(ngModel)]="phone" placeholder="+1 (555) 000-0000" class="inp">
+            </div>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label for="email" class="label">Create Password</label>
+            <div class="inp" style="padding: 0px 15px 0px 0px;">
+                <input [type]="passwordType" [(ngModel)]="pass" placeholder="Enter Password" class="inp">
+                <img *ngIf="passwordType == 'text'" class="eye" src="assets/imgs/eyeclose.svg"
+                    (click)='hideShowPassword()' />
+                <img *ngIf="passwordType != 'text'" class="eye" src="assets/imgs/eyeopen.svg"
+                    (click)='hideShowPassword()' />
+            </div>
+        </div>
+
+
+        <div style="margin-bottom: 20px;">
+            <label for="email" class="label">Confirm Password</label>
+            <div class="inp" style="padding: 0px 15px 0px 0px;">
+                <input [type]="passwordType2" [(ngModel)]="pass2" placeholder="Enter Password" class="inp">
+                <img *ngIf="passwordType2 == 'text'" class="eye" src="assets/imgs/eyeclose.svg"
+                    (click)='hideShowPassword()' />
+                <img *ngIf="passwordType2 != 'text'" class="eye" src="assets/imgs/eyeopen.svg"
+                    (click)='hideShowPassword2()' />
+            </div>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label for="email" class="label">Your Role</label>
+            <div class="inp" style="padding: 0px 15px 0px 0px;">
+                <input type="text" [(ngModel)]="service" placeholder="Service Provider" class="inp">
+                <div>
+                    <select name="cars" id="cars">
+                        <option *ngFor="let cu of countryArr" value="cu.countryCode">{{cu.currencyCode}}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="flexApart mt-15" style="margin-bottom: 20px;">
+            <label for="agree" class="chkBoxText">
+                <input type="checkbox" id="agree" [(ngModel)]="isChecked" name="agree"> I agree to
+                all <span style="color: #51CBFF;">Terms and Conditions</span> and <span style="color: #51CBFF;">Privacy
+                    Policy</span>
+            </label>
+        </div>
+
+        <div>
+            <button (click)="closeModal()" class="btn btn-info booking-btn btnLogin">Sign Up</button>
+        </div>
+
+        <p class="forgetPass mt-15" style="text-align: left;"> <span style="color: white;"> Already have an account?
+            </span>
+            Sign In</p>

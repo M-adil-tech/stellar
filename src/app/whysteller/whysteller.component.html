@@ -1,0 +1,157 @@
+<app-top-menu></app-top-menu>
+<app-header-menu></app-header-menu>
+
+<div class="banner">
+
+    <div class="banner-body" style="padding: 20px">
+        <div>
+            <h1 class="inti_head">Enhancing QA Efficiency <br> and Robustness</h1>
+        </div>
+        <div style="text-align: center;">
+            <button class="btn btn-info booking-btn">Get Started</button>
+        </div>
+
+
+
+        <div class="hassle-section ">
+            <div style="text-align: center; margin-bottom: 30px; margin-top: 40px;">
+                <button class="btn btn-outline-info btn-watch">Why Choose Us</button>
+            </div>
+            <h2 style="margin: 0px 10%;">Say goodbye to coding hassles, and say hello to Stellar's effortless testing solutions</h2>
+            <p style="margin: 30px 5%;">Choose Stellar for a testing experience that's out of this world - where
+                simplicity meets precision, speed meets reliability, and innovation is at your fingertips, all to
+                elevate your testing game.</p>
+            <div class="row">
+                <div class="col-sm-1 col-md-3 col-lg-3 forLoopDiv" *ngFor="let itm of item">
+                    <div class="forIn">
+                        <p class="p11">{{itm.name}}</p>
+                        <p class="p22">{{itm.desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-bottom: 30px; margin-top: 140px;">
+            <button class="btn btn-outline-info btn-watch">Features</button>
+        </div>
+
+        <div>
+            <h2 class="h2text">
+                Your Gateway to Next-Gen <br> No Code Testing
+            </h2>
+
+            <p class="ptext" style="margin: 30px 20%;">Choose Stellar for a testing experience that's out of this world
+                - where
+                simplicity meets precision, speed meets reliability, and innovation is at your fingertips, all to
+                elevate your testing game.</p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<div class="brilliance-section" style="min-height:min-content">
+    <div style="margin-top: 80px;">
+        <div class="code-test-section" (click)="showNextCard()">
+          <div class="gateway-inner-bg">
+           
+            <h1 style="margin-top: -10px;">
+              Your Gateway to Next-Gen<br />
+              No Code Testing
+            </h1>
+            <p>
+              At Stellar, our codeless testing solutions align perfectly with our vision
+              to revolutionize the world<br />
+              of testing, making it hassle-free and efficient for all. Our mission is to
+              empower manual testers<br />
+              to create automated tests effortlessly, realizing this vision with every
+              innovation.
+            </p>
+            <div class="section-watch">
+              <button class="btn btn-outline-info btn-watch">click to see</button>
+            </div>
+            <div class="all-cards">
+              <app-card *ngFor="let cardIndex of visibleCards; let i = index" [index]="cardIndex">
+              </app-card>
+            </div>
+          </div>
+        </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+<div class="faq-section">
+    <h1>Question you might have</h1>
+    <div class="faq-questions">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item my-3 p-2">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What is the average time required to configure an automation test
+                        suite?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3 p-2">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is the average time required to configure an automation test
+                        suite?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3 p-2">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What should I do if my automation tests fail?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3 p-2">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What situations are most likely to be a good fit for Stellar’s
+                        automation testing mechanism?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

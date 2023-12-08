@@ -1,0 +1,85 @@
+<div class="card-container">
+  <div class="card-how" [ngClass]="'class' + index" (click)="onClick()">
+    <ng-container *ngIf="index == 1">
+      <div class="how-works-card card-1">
+      
+        <button class="btn btn-info booking-btn">
+          Get Started with Stellar
+        </button>
+        <h1 class="animatedText">Begin Your Testing Journey</h1>
+        <p class="animatedText">
+          Kickstart your testing journey effortlessly with Vstellar. Whether
+          you're a seasoned professional<br />
+          or a newcomer in the world of testing, Stellar provide the perfect
+          entry point to begin your<br />
+          testing adventure.
+        </p>
+        <img class="animatedImage" src="assets/imgs/Stellar_Posses_01.png" />
+      </div>
+    </ng-container>
+    <ng-container *ngIf="index == 2">
+      <div class="how-works-card card-2">
+      
+        <button class="btn btn-info booking-btn">
+          Seamless Dashboard Experience
+        </button>
+        <h1 class="animatedText">Your Testing Hub</h1>
+        <p class="animatedText">
+          Vstellar’s user-friendly dashboard is your command center for all
+          things testing. It's designed to<br />
+          be the central hub where you can efficiently manage, monitor, and
+          control your testing projects.<br />
+          Your testing world is just a click away.
+        </p>
+        <img
+          class="animatedImage"
+          src="assets/imgs/Stellar_Posses_01 (1).png"
+        />
+      </div>
+    </ng-container>
+    <ng-container *ngIf="index == 3">
+      <div class="how-works-card card-3">
+        <!-- <img src="assets/imgs/fr1.png" style="width: 100%" /> -->
+        <img class="toLeftAnimImage" src="assets/imgs/Stellar_Posses_02.png" />
+        <div class="animatedSec3Texth1">
+          <h1>
+            Create Projects Effortlessly:<br />
+            Set Your Testing Goals
+          </h1>
+          <p>
+            Creating testing projects should be a breeze, and with Vstellar, it
+            is. Define your testing<br />
+            objectives, specify the testing type, and set your goals with utmost
+            ease. We empower you to<br />
+            structure your projects quickly and efficiently.
+          </p>
+        </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="index == 4">
+      <div class="how-works-card card-4">
+        
+        <img
+          class="animatedSec3Texth1"
+          src="assets/imgs/Stellar_Posses_03.png"
+        />
+      </div>
+    </ng-container>
+    <ng-container *ngIf="index == 5">
+      <div class="how-works-card card-5">
+        <h1 class="animatedText">
+          Configure Testing in a<br />
+          Snap: Define Your Testing<br />
+          Universe
+        </h1>
+        <p class="animatedText">
+          Configuring your testing environment is no longer a tedious task.
+          Vstellar simplifies the process,<br />
+          allowing you to define and fine-tune your testing universe
+          effortlessly. Precision and<br />
+          customization are at your fingertips.
+        </p>
+      </div>
+    </ng-container>
+  </div>
+</div>

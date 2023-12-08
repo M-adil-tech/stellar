@@ -1,0 +1,419 @@
+.banner {
+    background-image: url("../../assets/imgs/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 24px 0;
+    position: relative;
+
+
+    .banner-body {
+
+        input,
+        textarea {
+            background: rgb(217 217 217 / 17%);;
+            border: none;
+            margin-right: 20px;
+            opacity: 1;
+            color: white !important;
+            padding: 11px;
+            font-family: "Aeonik-Regular";
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            color: #FFF;
+            font-family: "Aeonik-Regular";
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 81px;
+        }
+
+        p {
+            color: #fff;
+            opacity: 0.8;
+            text-align: center;
+            font-family: "Aeonik-Light";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 36px;
+        }
+
+        .booking-btn {
+            border-radius: 200px;
+            padding: 12px 24px;
+        }
+    }
+}
+
+.hassle-section {
+    background-image: url("../../assets/imgs/intibg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.brilliance-section {
+    background-image: url("../../assets/imgs/brilliance-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+
+    .br-texts {
+        padding: 422px 0;
+
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-family: "Aeonik-Regular";
+            font-size: 152px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.gateway-section {
+    text-align: center;
+
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+
+    .tests-circle {
+        position: relative;
+
+        img.tests {}
+
+        .blured-top {
+            position: absolute;
+            background: linear-gradient(180deg, rgba(5, 7, 29, 0) 0%, #05071d 65.39%);
+            bottom: 40px;
+            width: 100%;
+            z-index: 1;
+            color: white;
+            padding: 340px 0;
+        }
+    }
+}
+
+.code-test-section {
+    background-image: url("../../assets/imgs/code-test-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 40px;
+    padding-bottom: 960px;
+    padding-top: 100px;
+    text-align: center;
+
+    .section-watch {
+        button.btn-watch {
+            padding: 12px 24px;
+            border-radius: 200px;
+            border: 2px solid #c75ffe;
+        }
+
+        button.btn-outline-info:hover {
+            background: transparent;
+            background-color: transparent;
+        }
+
+        button.btn-outline-info {
+            color: #c75ffe;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 24px 0;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+}
+
+.how-works {
+    background-image: url("../../assets/imgs/how-works.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 560px 0;
+    text-align: center;
+
+    h2 {
+        text-align: center;
+        font-family: "Aeonik-Bold";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 24px 0;
+        line-height: 81px;
+        background: var(--Linear,
+                linear-gradient(94deg, #c75ffe 36.12%, #6b29ee 81.28%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-family: "Aeonik-Light";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        opacity: 0.8;
+        margin-bottom: 24px;
+    }
+
+    .booking-btn {
+        border-radius: 200px;
+        padding: 12px 24px;
+    }
+}
+
+.integrations-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0;
+
+    .integrations-text {
+        margin-left: 80px;
+
+        h2 {
+            font-family: "Aeonik-Regular";
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 81px;
+            background: linear-gradient(92deg, #cf63ff 20.92%, #4d1ae5 79.76%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #fff;
+            opacity: 0.8;
+            font-family: "Aeonik-Light";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+}
+
+.faq-section {
+    h1 {
+        color: #fff;
+        font-family: "Aeonik-Regular";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 81px;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .faq-questions {
+        margin: 0px 80px 80px 80px;
+
+        .accordion-item {
+            border-radius: 40px;
+            background: #130d3f;
+            border: none;
+            padding: 35px 20px !important;
+            border-top: 1px solid #cf63ff;
+        }
+
+        .accordion-button {
+            background: #130d3f;
+            color: #fff;
+            border-radius: 200px;
+            padding: 5px;
+        }
+
+        .accordion-body {
+            p {
+                color: #fff;
+            }
+        }
+
+        .accordion-button:after {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+    }
+
+
+}
+
+
+.normalBtn {
+    padding: 7px 24px;
+    border-radius: 200px;
+    border: 2px solid #c75ffe;
+    color: #c75ffe;
+    --bs-btn-hover-bg: transparent;
+}
+
+.inti_head {
+    text-align: center;
+    font-family: "Aeonik-Bold";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    background: var(--Linear,
+            linear-gradient(94deg, #c75ffe 36.12%, #6b29ee 81.28%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.item_div {
+    border-radius: 24px;
+    background: #130D3F;
+    width: 24%;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 165px;
+        height: 51px;
+        object-fit: scale-down;
+    }
+}
+
+.flex_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+}

@@ -1,0 +1,55 @@
+
+<div class="modal-overlay"></div>
+<div class="modal-content">
+
+
+  <div class="row">
+    <img class="logoImg" src="assets/imgs/logo2.png" />
+
+    <p class="welcome">Welcome Back</p>
+    <p class="welcome_sub">Enter your credentials to access your account</p>
+
+
+    <div class="col">
+      <div class="socialdiv">
+        <img src="assets/imgs/gmail.svg" />
+        <p class="socialText">Sign in with Google</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="socialdiv">
+        <img src="assets/imgs/fb.svg" />
+        <p class="socialText"> Sign in with Facebook</p>
+      </div>
+    </div>
+
+    <div class="hrDiv">
+      <hr class="myHrL">
+      <p class="or">or</p>
+      <hr class="myHrR">
+    </div>
+
+    <div>
+      <label for="email" class="label">Email</label>
+      <input type="text" id="email" [(ngModel)]="email" name="email" class="inp" placeholder="olivia@collabdocs.com">
+    </div>
+
+    <div style="margin-top: 10px;">
+      <label for="pass" class="label">Password</label>
+      <input type="password" id="pass" [(ngModel)]="pass" name="pass" class="inp" placeholder="Enter password">
+    </div>
+
+    <div class="flexApart mt-15">
+      <label for="agree">
+        <input class="chkBoxText" type="checkbox" id="agree" [(ngModel)]="isChecked" name="agree"> Remember me
+      </label>
+      <p class="forgetPass">Forgot Password?</p>
+    </div>
+
+    <div>
+      <button (click)="closeModal()" class="btn btn-info booking-btn btnLogin">Login</button>
+    </div>
+
+    <p (click)="openModalSignup()" class="forgetPass mt-15" style="text-align: left;"> <span style="color: white;">
+        Didn’t have an account?</span>
+      Sign Up</p>

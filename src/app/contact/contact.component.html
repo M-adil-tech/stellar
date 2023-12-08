@@ -1,0 +1,61 @@
+<app-top-menu></app-top-menu>
+<app-header-menu></app-header-menu>
+
+<div class="banner">
+
+    <div class="banner-body" style="padding: 40px 20% 40px 40px;">
+        <div class="col-md-8" style="display: flex;">
+            <h1>Book a Free Demo to see Stellar in Action</h1>
+        </div>
+
+        <div class="col-md-8" style="display: flex;">
+
+            <input [(ngModel)]="fname" type="email" class="form-control mt-3" placeholder="First name"
+                id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+            <input [(ngModel)]="lname" type="email" class="form-control mt-3" placeholder="Last name"
+                id="exampleInputEmail1" aria-describedby="emailHelp" />
+        </div>
+
+
+        <div class="col-md-8" style="display: flex;">
+
+            <input [(ngModel)]="email" type="email" class="form-control mt-3" placeholder="Email Address"
+                id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+            <input [(ngModel)]="phone" type="tel" class="form-control mt-3" placeholder="Phone number"
+                id="exampleInputEmail1" aria-describedby="emailHelp" />
+        </div>
+
+
+        <div class="col-md-8" style="display: flex;">
+
+
+            <textarea [(ngModel)]="msg" type="text" class="form-control mt-3" placeholder="Your message"
+                id="exampleInputEmail1" aria-describedby="emailHelp" rows="4" cols="50"></textarea>
+
+        </div>
+
+        <p style="    text-align: left;
+        color: red;
+        font-size: 15px;
+        font-weight: 700;" *ngIf="error_message">{{error_message}}</p>
+
+        <div class="col-md-8" style="    display: flex;
+        margin-top: 30px;">
+
+            <button (click)="submit()" class="btn btn-info booking-btn">Submit</button>
+        </div>
+
+        <img style="width: 480px;
+        height: 480px;
+        position: absolute;
+        top: 60px;
+        right: 10px;" src="assets/imgs/contact.png" />
+
+
+
+    </div>
+    <app-footer></app-footer>
+
+</div>

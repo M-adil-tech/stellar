@@ -1,0 +1,440 @@
+.hassle-section {
+  .hassel-inner-bg {
+    background-image: url("../../assets/imgs/hassel-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  background: #05071d;
+  background-image: radial-gradient(520px 150px at top center,
+    rgba(189, 86, 234, 0.5) 10%,
+    rgb(53, 24, 70) 40%,
+    rgb(29, 13, 43) 71%,
+    rgba(5, 7, 29, 1) 100%);
+  position: relative;
+  box-sizing: border-box;
+  --border: 3px;
+  background-clip: padding-box;
+  border: solid var(--border) transparent;
+  border-radius: 2em;
+  margin: 0 40px;
+  text-align: center;
+  // padding-bottom: px;
+  padding-top: 100px;
+
+  .section-watch {
+    button.btn-watch {
+      padding: 12px 24px;
+      border-radius: 200px;
+      border: 2px solid #c75ffe;
+    
+    }
+
+    button.btn-outline-info:hover {
+      background: transparent;
+      background-color: transparent;
+    }
+
+    button.btn-outline-info {
+      color: #c75ffe;
+      cursor: pointer;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin: 24px 0;
+    font-family: "Aeonik-Regular";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 81px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: "Aeonik-Light";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+  }
+
+  .tab-img {
+
+  
+
+    .video-player {
+      background-image: url("../../assets/imgs/Rectangle\ 2404.png");
+      background-position: center;
+      background-repeat: no-repeat;
+     // background-size: cover;
+      position: relative;
+     // position: absolute;
+      // top: 8%;
+      // bottom: 23%;
+      // left: 15%;
+      // right: 15%;
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+      height: 600px;
+      margin-bottom: 36px;
+
+      #myVideo {
+        // border: 1px solid red;
+      }
+    }
+  }
+}
+
+.hassle-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: calc(-1 * var(--border));
+  border-radius: inherit;
+  background: linear-gradient(to bottom,
+      rgb(207, 99, 255),
+      rgb(33, 22, 43) 71%);
+}
+.parent{
+  margin-bottom: 40px;
+}
+.brilliance-section {
+  background-image: url("../../assets/imgs/brilliance-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+ 
+  
+  
+
+  .br-texts {
+   
+    padding:25rem;
+
+    h3 {
+      margin-top: -12rem;
+      color: #fff;
+      text-align: center;
+      font-family: "Aeonik-Regular";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    p {
+      color: #fff;
+      text-align: center;
+      font-family: "Aeonik-Regular";
+      font-size: 120px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
+
+.gateway-section {
+  text-align: center;
+
+  // margin-bottom: 150px;
+  .section-watch {
+    button.btn-watch {
+      padding: 12px 24px;
+      border-radius: 200px;
+      border: 2px solid #c75ffe;
+    }
+
+    button.btn-outline-info:hover {
+      background: transparent;
+      background-color: transparent;
+    }
+
+    button.btn-outline-info {
+      color: #c75ffe;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin: 24px 0;
+    font-family: "Aeonik-Regular";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 81px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: "Aeonik-Light";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+  }
+
+  .tests-circle {
+    position: relative;
+
+    .blured-top {
+      position: absolute;
+      background: linear-gradient(180deg, rgba(5, 7, 29, 0) 0%, #05071ddb 34.39%);
+      bottom: 0px;
+      width: 100%;
+      z-index: 1;
+      color: white;
+      padding: 340px 0;
+    }
+  }
+}
+
+.code-test-section {
+  .gateway-inner-bg {
+    background-image: url("../../assets/imgs/gateway-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-bottom: 700px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+  }
+
+  background: #05071d;
+  background-image: radial-gradient(520px 150px at top center,
+    rgba(189, 86, 234, 0.5) 10%,
+    rgb(53, 24, 70) 40%,
+    rgb(29, 13, 43) 71%,
+    rgba(5, 7, 29, 1) 100%);
+  position: relative;
+  box-sizing: border-box;
+  --border: 3px;
+  background-clip: padding-box;
+  border: solid var(--border) transparent;
+  border-radius: 2em;
+  margin: 0 40px;
+  text-align: center;
+
+  .section-watch {
+    button.btn-watch {
+      padding: 12px 24px;
+      border-radius: 200px;
+      border: 2px solid #c75ffe;
+    }
+
+    button.btn-outline-info:hover {
+      background: transparent;
+      background-color: transparent;
+    }
+
+    button.btn-outline-info {
+      color: #c75ffe;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin: 24px 0;
+    font-family: "Aeonik-Regular";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 81px;
+    opacity: 0.8;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: "Aeonik-Light";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+  }
+
+  .all-cards {
+    margin-top: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+  }
+}
+
+.code-test-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: calc(-1 * var(--border));
+  border-radius: inherit;
+  background: linear-gradient(to bottom,
+      rgb(207, 99, 255),
+      rgb(33, 22, 43) 71%);
+}
+
+.how-works {
+  background-image: url("../../assets/imgs/how-works.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0 435px;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    text-align: center;
+    font-family: "Aeonik-Bold";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px 0;
+    line-height: 81px;
+    background: var(--Linear,
+        linear-gradient(94deg, #c75ffe 36.12%, #6b29ee 81.28%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: "Aeonik-Light";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+  }
+
+  .booking-btn {
+    border-radius: 200px;
+    padding: 12px 24px;
+  }
+
+  .all-cards {
+    margin-top: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.integrations-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 0;
+
+  .integrations-text {
+    margin-left: 80px;
+
+    h2 {
+      font-family: "Aeonik-Regular";
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 81px;
+      background: linear-gradient(92deg, #cf63ff 20.92%, #4d1ae5 79.76%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #fff;
+      opacity: 0.8;
+      font-family: "Aeonik-Light";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+}
+
+.faq-section {
+  h1 {
+    color: #fff;
+    font-family: "Aeonik-Regular";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 81px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+
+  .faq-questions {
+    margin: 0px 80px 80px 80px;
+
+    .accordion-item {
+      border-radius: 40px;
+      background: #130d3f;
+      border: none;
+      padding: 35px 20px !important;
+      border-top: 1px solid #cf63ff;
+    }
+
+    .accordion-button {
+      background: #130d3f;
+      color: #fff;
+      border-radius: 200px;
+      padding: 5px;
+    }
+
+    .accordion-body {
+      p {
+        color: #fff;
+      }
+    }
+
+    .accordion-button:after {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    }
+  }
+
+}
+
+.font-style {
+  fill: white;
+  font-size: 45px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.rotateVideo{
+  transform: PERSPECTIVE(66em) rotateX(33deg);
+}
+.wrapper{ 
+  display: flex;
+  justify-content: center;
+  margin-top: -15rem;
+}

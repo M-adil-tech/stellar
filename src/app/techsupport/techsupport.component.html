@@ -1,0 +1,32 @@
+<app-top-menu></app-top-menu>
+<app-header-menu></app-header-menu>
+
+<div class="banner">
+
+    <div class="banner-body" style="padding: 40px">
+        <div>
+            <h1 class="inti_head">Tech Support</h1>
+            <p>Welcome to Stellar’s Technical Support Page!
+                At Stellar, we are committed to providing exceptional support to ensure you get the most out of our QA
+                Automation Tools. Below you will find a range of resources to help you navigate and utilize our tools
+                effectively.</p>
+        </div>
+
+
+        <div class="hassle-section ">
+            <div class="row">
+                <div class="col-md-4 col-sm-1 col-lg-4 forLoopDiv" *ngFor="let itm of item">
+                    <div class="forIn">
+                        <p>{{itm.name}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <app-footer></app-footer>
+
+</div>

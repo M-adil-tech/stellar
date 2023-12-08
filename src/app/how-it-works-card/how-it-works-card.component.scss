@@ -1,0 +1,134 @@
+.card-container {
+  /* Adjust the height as needed */
+  position: relative;
+}
+
+.card-how {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  .how-works-card {
+    background-image: url("../../assets/imgs/hassel-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: #05071e;
+    animation: animatedBackground 1s;
+    .booking-btn {
+      border-radius: 200px;
+      padding: 12px 24px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-family: "Aeonik-Bold";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    p {
+      color: #fff;
+      opacity: 0.7;
+      text-align: center;
+      font-family: "Aeonik-Light";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+   
+  }
+  .how-works-card.card-1 {
+    padding: 300px 0px 0px 0px;
+  }
+  .how-works-card.card-2 {
+    padding: 200px 0px 191px 0px;
+  }
+  .how-works-card.card-3 {
+    padding: 200px 0px 191px 0px;
+  }
+  .how-works-card.card-4 {
+    padding: 200px 0px 133px 0px;
+  }
+  .how-works-card.card-5 {
+    color: #fff;
+    text-align: center;
+    font-family: "Aeonik-Bold";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 400px 0px 386px 0px;
+  }
+}
+
+img.animatedImage {
+  animation: fadeIn 2s;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+img.toLeftAnimImage {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.animatedText {
+  animation: fadeIn 2s;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.animatedSec3Texth1 {
+  animation: fadeIn 2s;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(-0%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(539px);
+    transform: translateY(539px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes animatedBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
