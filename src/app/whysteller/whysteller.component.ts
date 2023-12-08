@@ -14,7 +14,7 @@ export class WhystellerComponent implements OnInit {
 
   item: any = [
     {
-      name: "Codeless testing",
+      name: "Codeless Testing",
       desc: "Stellar's codeless testing results in hassle - free and efficient testing. This revolutionary feature enables manual testers to create automated tests without having to write a single line of code."
     },
     {
