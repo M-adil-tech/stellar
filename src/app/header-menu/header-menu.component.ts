@@ -19,7 +19,7 @@ export class HeaderMenuComponent implements OnInit {
   ngOnInit(): void { }
 
   navigateToSecondComponent() {
-    // Navigate to the 'second' route with a fragment
+    
     console.log('navigate')
     this.router.navigate(['home']);
     this.scrollService.scrollToPosition();
