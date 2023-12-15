@@ -14,7 +14,7 @@ import { SignupComponent } from './signup/signup.component';
 import { IntigrationComponent } from './intigration/intigration.component';
 import { MyintigratigrationComponent } from './myintigratigration/myintigratigration.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import FormsModule
-import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog, MatLegacyDialogModule as MatDialogModule } from '@angular/material/legacy-dialog';
 import { Overlay } from '@angular/cdk/overlay';
 import { TestingComponent } from './testing/testing.component';
 import { PerformanceComponent } from './performance/performance.component';

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SignupComponent } from 'app/signup/signup.component';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 
 
 @Component({
