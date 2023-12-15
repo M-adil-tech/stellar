@@ -1,7 +1,7 @@
 import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { NavigationEnd, ParamMap, Route, Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
-import { ScrollService } from 'app/scroll.service';import { Title, Meta } from '@angular/platform-browser';
+import { ScrollService } from 'app/scroll.service'; import { Title, Meta } from '@angular/platform-browser';
 import { Observable, filter, switchMap } from 'rxjs';
 import { RestService } from 'app/rest.service';
 
@@ -83,13 +83,13 @@ export class HomeComponent implements OnInit {
 
   imgSrc = 0;
   incrementPercentage(originalPercentage, incrementBy) {
-    
+
     const originalValue = parseFloat(originalPercentage);
 
-    
+
     const newValue = originalValue + incrementBy;
 
-    
+
     const newPercentage = newValue.toFixed(1) + '%';
 
     return newPercentage;
@@ -140,7 +140,7 @@ export class HomeComponent implements OnInit {
     if (targetElement.classList && targetElement.classList.contains('circular-menu')) {
       // Get the class list as an array
 
-      this.rotate(); 
+      this.rotate();
 
 
       this.disableScroll()
@@ -198,38 +198,38 @@ export class HomeComponent implements OnInit {
   }
   pageTitle$: Observable<string>;
   constructor(private el: ElementRef,
-    public scrollService: ScrollService,private titleService: Title,
-    private meta: Meta, private route: Router,private rest:RestService) { 
+    public scrollService: ScrollService, private titleService: Title,
+    private meta: Meta, private route: Router, private rest: RestService) {
     //  console.log("pageTitle  --- ",pageTitle);
 
-    
 
-     
-    }
+
+
+  }
 
 
 
   ngOnInit() {
 
-    this.route.events.pipe(filter((event)=> event instanceof NavigationEnd)).subscribe(async (event: NavigationEnd)=>{
-      console.log("event --- ",event);
+    this.route.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(async (event: NavigationEnd) => {
+      console.log("event --- ", event);
 
       const url = event.url.split('/')[1];
 
-      console.log("url---",url);
-     
+      console.log("url---", url);
+
 
       // this.meta.addTag({name: 'keywords', content: url});
       // this.meta.addTag({name: 'description', content: url+'Stellar tools'});
       // this.meta.addTag({name: 'author', content: url+'Stellar'});
       // this.meta.addTag({name: 'robots', content: url+'stellar, Integrations'});
 
-     const seoData :any = this.rest.getSeoData(url);
+      const seoData: any = this.rest.getSeoData(url);
 
-     console.log("seoData",seoData);
+      console.log("seoData", seoData);
 
       this.titleService.setTitle(seoData?.g_script1);
-      
+
     })
 
 
@@ -242,7 +242,7 @@ export class HomeComponent implements OnInit {
           element.scrollIntoView();
         }
       }, 500);
-     
+
     });
   }
 
@@ -259,19 +259,19 @@ export class HomeComponent implements OnInit {
   splitString(inputString, chunkSize = 70) {
     // Check if the length of the input string is greater than chunkSize
     if (inputString.length > chunkSize) {
-        // Calculate the number of chunks needed
-        const numChunks = Math.ceil(inputString.length / chunkSize);
-        
-        // Use a loop to create the array of substrings
-        const substrings = [];
-        for (let i = 0; i < numChunks; i++) {
-            substrings.push(inputString.substr(i * chunkSize, chunkSize));
-        }
-        
-        return substrings;
+      // Calculate the number of chunks needed
+      const numChunks = Math.ceil(inputString.length / chunkSize);
+
+      // Use a loop to create the array of substrings
+      const substrings = [];
+      for (let i = 0; i < numChunks; i++) {
+        substrings.push(inputString.substr(i * chunkSize, chunkSize));
+      }
+
+      return substrings;
     } else {
-        // If the length is not greater than chunkSize, return the original string as a single-element array
-        return [inputString];
+      // If the length is not greater than chunkSize, return the original string as a single-element array
+      return [inputString];
     }
-}
+  }
 }
